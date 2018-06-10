@@ -9,6 +9,8 @@ import thaumcraft.aspect.CTAspectStack;
 
 #Author: mangoose
 
+print("Adding Aspects to Chisel...");
+
 for item in loadedMods["chisel"].items {
 		val id = item.definition.id as string;
 		
@@ -51,3 +53,5 @@ for item in loadedMods["chisel"].items {
 		else if (id has "steel") item.setAspects([<aspect:metallum> * 101, <aspect:ordo> * 33]);
 		else if (id has "uranium") item.setAspects([<aspect:metallum> * 67, <aspect:potentia> * 67, <aspect:mortuus> * 33]);	
 }
+
+print("Finished adding Aspects to Chisel.");

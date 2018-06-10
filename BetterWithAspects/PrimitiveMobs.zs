@@ -9,6 +9,8 @@ import thaumcraft.aspect.CTAspectStack;
 
 #Author: mangoose
 
+print("Adding Aspects to Primitive Mobs...");
+
 <primitivemobs:camouflage_dye>.setAspects([<aspect:sensus> * 5, <aspect:permutatio>]);
 <primitivemobs:camouflage_helmet>.setAspects([<aspect:bestia> * 18, <aspect:praemunio> * 18, <aspect:permutatio> * 2]);
 <primitivemobs:camouflage_chestplate>.setAspects([<aspect:bestia> * 30, <aspect:praemunio> * 30, <aspect:permutatio> * 3]);
@@ -18,3 +20,5 @@ import thaumcraft.aspect.CTAspectStack;
 <primitivemobs:cooked_dodo>.setAspects([<aspect:victus> * 5, <aspect:bestia> * 5, <aspect:fabrico>]);
 <primitivemobs:dodo_egg>.setAspects([<aspect:victus> * 5, <aspect:bestia> * 5, <aspect:exanimis>]);
 <primitivemobs:mimic_orb>.setAspects([<aspect:spiritus> * 10, <aspect:aversio> * 3, <aspect:vinculum> * 10, <aspect:desiderium> * 5]);
+
+print("Finished adding Aspects to Primitive Mobs.");

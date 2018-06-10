@@ -9,6 +9,8 @@ import thaumcraft.aspect.CTAspectStack;
 
 #Author: mangoose
 
+print("Adding Aspects to Mowzies Mobs...");
+
 <mowziesmobs:foliaath_seed>.setAspects([<aspect:herba> * 5, <aspect:victus> * 3, <aspect:motus> * 3, <aspect:bestia>]);
 <mowziesmobs:wrought_axe>.setAspects([<aspect:metallum> * 25, <aspect:aversio> * 12, <aspect:ordo> * 10]);
 <mowziesmobs:wrought_helmet>.setAspects([<aspect:metallum> * 25, <aspect:praemunio> * 8, <aspect:ordo> * 10]);
@@ -23,3 +25,5 @@ import thaumcraft.aspect.CTAspectStack;
 <mowziesmobs:barakoa_mask_rage>.setAspects([<aspect:humanus> * 10, <aspect:perditio> * 10, <aspect:instrumentum> * 10, <aspect:praemunio> * 4]);
 <mowziesmobs:barakoa_mask_bliss>.setAspects([<aspect:humanus> * 10, <aspect:ordo> * 10, <aspect:volatus> * 10, <aspect:praemunio> * 4]);
 <mowziesmobs:barakoa_mask_misery>.setAspects([<aspect:humanus> * 10, <aspect:aqua> * 10, <aspect:praemunio> * 14]);
+
+print("Finished adding Aspects to Mowzies Mobs.");

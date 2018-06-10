@@ -9,9 +9,13 @@ import thaumcraft.aspect.CTAspectStack;
 
 #Author: mangoose
 
+print("Adding Aspects to Inspirations...");
+
 <inspirations:materials:7>.setAspects([<aspect:mortuus> * 5, <aspect:exanimis> * 5]);
 <inspirations:materials:6>.setAspects([<aspect:bestia> * 5, <aspect:terra> * 10, <aspect:alkimia> * 3]);
 <inspirations:flower:0>.setAspects([<aspect:herba> * 5, <aspect:sensus> * 5, <aspect:victus>]);
 <inspirations:flower:1>.setAspects([<aspect:herba> * 5, <aspect:sensus> * 5, <aspect:victus>]);
 <inspirations:flower:2>.setAspects([<aspect:herba> * 5, <aspect:sensus> * 5, <aspect:victus>]);
 <inspirations:flower:3>.setAspects([<aspect:herba> * 5, <aspect:sensus> * 5, <aspect:victus>]);
+
+print("Finished adding Aspects to Inspirations.");

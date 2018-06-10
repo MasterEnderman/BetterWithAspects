@@ -7,6 +7,8 @@ import crafttweaker.item.IIngredient;
 import thaumcraft.aspect.CTAspect;
 import thaumcraft.aspect.CTAspectStack;
 
+print("Adding Aspects to Metals...");
+
 for item in <ore:ingotAluminum>.items item.setAspects([<aspect:metallum> * 10, <aspect:aer> * 5]);
 for item in <ore:ingotElectrum>.items item.setAspects([<aspect:metallum> * 10, <aspect:potentia> * 5, <aspect:desiderium> * 5]);
 for item in <ore:ingotNickel>.items item.setAspects([<aspect:metallum> * 10, <aspect:fabrico> * 5]);
@@ -24,3 +26,5 @@ for item in <ore:oreNickel>.items item.setAspects([<aspect:metallum> * 10, <aspe
 for item in <ore:blockAluminum>.items item.setAspects([<aspect:metallum> * 67, <aspect:aer> * 33]);
 for item in <ore:blockElectrum>.items item.setAspects([<aspect:metallum> * 67, <aspect:potentia> * 33, <aspect:desiderium> * 33]);
 for item in <ore:blockNickel>.items item.setAspects([<aspect:metallum> * 67, <aspect:fabrico> * 33]);
+
+print("Finished adding Aspects to Metals.");

@@ -9,6 +9,8 @@ import thaumcraft.aspect.CTAspectStack;
 
 #Author: mangoose
 
+print("Adding Aspects to Biomes O' Plenty...");
+
 <biomesoplenty:grass:0>.setAspects([<aspect:terra> * 5, <aspect:tenebrae> * 3, <aspect:herba>]);
 <biomesoplenty:grass:1>.setAspects([<aspect:terra> * 5, <aspect:herba>]);
 <biomesoplenty:grass:2>.setAspects([<aspect:terra> * 5, <aspect:herba> * 2]);
@@ -225,3 +227,5 @@ import thaumcraft.aspect.CTAspectStack;
 <biomesoplenty:filled_honeycomb>.setAspects([<aspect:bestia> * 2, <aspect:victus> * 3]);
 <biomesoplenty:shroompowder>.setAspects([<aspect:herba> * 3, <aspect:tenebrae> * 3, <aspect:victus>]);
 <biomesoplenty:ricebowl>.setAspects([<aspect:herba> * 2, <aspect:vacuos> * 3, <aspect:victus>]);
+
+print("Finished adding Aspects to Biomes O' Plenty.");

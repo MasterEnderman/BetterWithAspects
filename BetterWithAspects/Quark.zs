@@ -9,6 +9,8 @@ import thaumcraft.aspect.CTAspectStack;
 
 #Author: mangoose
 
+print("Adding Aspects to Quark...");
+
 <quark:glowcelium>.setAspects([<aspect:terra> * 5, <aspect:herba>, <aspect:lux> * 3]);
 <quark:biome_cobblestone:0>.setAspects([<aspect:terra> * 5, <aspect:perditio>, <aspect:ignis>]);
 <quark:biome_cobblestone:1>.setAspects([<aspect:terra> * 5, <aspect:perditio>, <aspect:gelum>]);
@@ -31,3 +33,5 @@ import thaumcraft.aspect.CTAspectStack;
 <quark:black_ash>.setAspects([<aspect:exanimis> * 10, <aspect:mortuus> * 5, <aspect:tenebrae> * 5]);
 <quark:pirate_hat>.setAspects([<aspect:praemunio> * 10, <aspect:desiderium> * 5, <aspect:bestia> * 3, <aspect:fabrico> * 2]);
 <quark:witch_hat>.setAspects([<aspect:praemunio> * 10, <aspect:praecantatio> * 10, <aspect:bestia> * 2, <aspect:cognitio> * 3]);
+
+print("Finished adding Aspects to Quark.");

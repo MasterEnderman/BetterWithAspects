@@ -9,6 +9,8 @@ import thaumcraft.aspect.CTAspectStack;
 
 #Author: mangoose
 
+print("Adding Aspects to Exotic Birds...");
+
 <exoticbirds:peacock_feather>.setAspects([<aspect:volatus> * 5, <aspect:aer> * 5, <aspect:sensus> * 2]);
 <exoticbirds:phoenix_feather>.setAspects([<aspect:volatus> * 5, <aspect:aer> * 5, <aspect:ignis> * 5]);
 <exoticbirds:phoenix_dust>.setAspects([<aspect:ignis> * 10, <aspect:victus> * 3, <aspect:permutatio>]);
@@ -45,3 +47,5 @@ import thaumcraft.aspect.CTAspectStack;
 <exoticbirds:bluejay_egg>.setAspects([<aspect:victus> * 5, <aspect:bestia> * 5]);
 <exoticbirds:robin_egg>.setAspects([<aspect:victus> * 5, <aspect:bestia> * 5]);
 <exoticbirds:crane_egg>.setAspects([<aspect:victus> * 5, <aspect:bestia> * 5]);
+
+print("Finished adding Aspects to Exotic Birds.");

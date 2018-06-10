@@ -9,6 +9,8 @@ import thaumcraft.aspect.CTAspectStack;
 
 #Author: mangoose
 
+print("Adding Aspects to Embers...");
+
 <ore:ingotAluminum>.add(<embers:ingot_aluminum>);
 <ore:nuggetAluminum>.add(<embers:nugget_aluminum>);
 <ore:oreAluminum>.add(<embers:ore_aluminum>);
@@ -32,3 +34,5 @@ import thaumcraft.aspect.CTAspectStack;
 <ore:nuggetSilver>.add(<embers:nugget_silver>);
 <ore:oreSilver>.add(<embers:ore_silver>);
 <ore:blockSilver>.add(<embers:block_silver>);
+
+print("Finished adding Aspects to Embers.");

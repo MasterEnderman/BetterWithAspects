@@ -9,6 +9,8 @@ import thaumcraft.aspect.CTAspectStack;
 
 #Author: mangoose
 
+print("Adding Aspects to Unlimited Chisel Works...");
+
 for item in loadedMods["unlimitedchiselworks"].items {
 		val id = item.definition.id as string;
 		
@@ -29,3 +31,5 @@ for item in loadedMods["unlimitedchiselworks"].items {
 		else if (id has "quark_biome_cobblestone_0") item.setAspects([<aspect:terra> * 5, <aspect:perditio>, <aspect:ignis>]);
 		else if (id has "quark_biome_cobblestone_1") item.setAspects([<aspect:terra> * 5, <aspect:perditio>, <aspect:gelum>]);
 }
+
+print("Finished adding Aspects to Unlimited Chisel Works.");

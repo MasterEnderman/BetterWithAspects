@@ -9,6 +9,8 @@ import thaumcraft.aspect.CTAspectStack;
 
 #Author: mangoose
 
+print("Adding Aspects to Familiar Fauna...");
+
 <familiarfauna:bug_net>.setAspects([<aspect:bestia> * 11, <aspect:instrumentum> * 5, <aspect:vinculum> * 3, <aspect:fabrico> * 2, <aspect:herba>]);
 <familiarfauna:bug_habitat>.setAspects([<aspect:vinculum> * 5, <aspect:vitreus> * 4]);
 <familiarfauna:pixie_dust>.setAspects([<aspect:praecantatio> * 5, <aspect:aer> * 3, <aspect:bestia>]);
@@ -17,3 +19,5 @@ import thaumcraft.aspect.CTAspectStack;
 <familiarfauna:turkey_leg_cooked>.setAspects([<aspect:bestia> * 5, <aspect:victus> * 5, <aspect:fabrico>]);
 <familiarfauna:venison_raw>.setAspects([<aspect:bestia> * 5, <aspect:victus> * 5, <aspect:terra> * 5]);
 <familiarfauna:venison_cooked>.setAspects([<aspect:bestia> * 5, <aspect:victus> * 5, <aspect:fabrico>]);
+
+print("Finished adding Aspects to Familiar Fauna.");
